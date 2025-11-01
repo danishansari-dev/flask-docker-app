@@ -38,7 +38,7 @@ git push -u origin main
 ```
 
 **Screenshot: GitHub repository showing all files**
-![alt text](https://raw.githubusercontent.com/danishansari-dev/Documentation/refs/heads/main/Screenshots/Screenshot%202.png)
+![alt text](<Screenshots/Screenshot 2.png>)
 
 ## 5. Configured Docker Hub Credentials in Jenkins
 
@@ -63,12 +63,10 @@ Created a new Freestyle project in Jenkins named `flask-app-pipeline` with:
 - Windows batch build script
 
 **Screenshot: Jenkins job configuration - Source Code Management**
-
-![alt text](https://raw.githubusercontent.com/danishansari-dev/Documentation/refs/heads/main/Screenshots/Screenshot%204.png)
+![alt text](<Screenshots/Screenshot 4.png>)
 
 ### Screenshot: Jenkins job configuration - Build Triggers
-
-![alt text](https://raw.githubusercontent.com/danishansari-dev/Documentation/refs/heads/main/Screenshots/Screenshot%206.png)
+![alt text](<Screenshots/Screenshot 6.png>)
 
 ### Screenshot: Jenkins job configuration - Build Steps (batch script)
 
