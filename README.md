@@ -1,2 +1,2 @@
-# flask-docker-app CICD
+# flask-docker-app CiCD
 
