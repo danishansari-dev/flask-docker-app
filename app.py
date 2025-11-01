@@ -9,6 +9,7 @@ def home():
         "version": "2.0",
         "status": "running"
     })
+    
 
 @app.route('/health')
 def health():
