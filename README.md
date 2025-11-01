@@ -25,7 +25,7 @@ flask-docker-app/
 
 **Docker Hub Repository:** [https://hub.docker.com/r/danish491/flask-docker-app](https://hub.docker.com/r/danish491/flask-docker-app)
 
-## 4. Pushed Code to GitHub Repository
+## 3. Pushed Code to GitHub Repository
 
 Initialized Git repository and pushed all files to GitHub:
 
@@ -40,7 +40,7 @@ git push -u origin main
 **Screenshot: GitHub repository showing all files**
 ![alt text](<Screenshots/Screenshot 2.png>)
 
-## 5. Configured Docker Hub Credentials in Jenkins
+## 4. Configured Docker Hub Credentials in Jenkins
 
 Added Docker Hub credentials to Jenkins for automated image pushing:
 
@@ -54,7 +54,7 @@ Added Docker Hub credentials to Jenkins for automated image pushing:
 
 ***
 
-## 6. Created Jenkins Pipeline Job
+## 5. Created Jenkins Pipeline Job
 
 Created a new Freestyle project in Jenkins named `flask-app-pipeline` with:
 
@@ -75,7 +75,7 @@ Created a new Freestyle project in Jenkins named `flask-app-pipeline` with:
 
 ***
 
-## 7. Manual Build Test - Latest Execution
+## 6. Manual Build Test - Latest Execution
 
 Executed manual build by clicking "Build Now" to verify pipeline configuration.
 
@@ -97,7 +97,7 @@ The pipeline performs the following steps:
 
 ***
 
-## 8. Verified Deployed Application
+## 7. Verified Deployed Application
 
 Opened browser and tested the Flask application endpoints:
 
@@ -111,7 +111,7 @@ Opened browser and tested the Flask application endpoints:
 
 ***
 
-## 9. Configured GitHub Webhook
+## 8. Configured GitHub Webhook
 
 Set up GitHub webhook to automatically trigger Jenkins builds on code push:
 
@@ -130,7 +130,7 @@ Set up GitHub webhook to automatically trigger Jenkins builds on code push:
 
 ***
 
-## 10. Made Code Changes to Test Automatic Deployment
+## 9. Made Code Changes to Test Automatic Deployment
 
 Modified `app.py` to update version and message:
 
@@ -153,7 +153,7 @@ git push origin main
 
 ***
 
-## 11. Automatic Build Triggered by GitHub Webhook
+## 10. Automatic Build Triggered by GitHub Webhook
 
 Jenkins automatically detected the GitHub push and triggered a new build without manual intervention.
 
@@ -163,7 +163,7 @@ Jenkins automatically detected the GitHub push and triggered a new build without
 
 ***
 
-## 12. Verified Updated Application Deployment
+## 11. Verified Updated Application Deployment
 
 Refreshed browser to confirm automatic deployment of updated version.
 
@@ -173,7 +173,7 @@ Refreshed browser to confirm automatic deployment of updated version.
 
 ***
 
-## 13. Build History and Pipeline Execution
+## 12. Build History and Pipeline Execution
 
 Jenkins build history showing multiple successful builds:
 
@@ -186,7 +186,7 @@ Jenkins build history showing multiple successful builds:
 
 ***
 
-## 15. CI/CD Pipeline Workflow Diagram
+## 13. CI/CD Pipeline Workflow Diagram
 
 The complete automated workflow:
 
@@ -210,7 +210,7 @@ Developer → Code Change → Git Push → GitHub
                           Application Running (Port 5000)
 ```
 
-## 21. Conclusion
+## 14. Conclusion
 
 Successfully implemented a fully automated CI/CD pipeline integrating Jenkins, Docker, and GitHub. The pipeline automatically detects code changes via GitHub webhooks, builds Docker images, tests the application, and deploys containers without manual intervention. This demonstrates modern DevOps practices including continuous integration, continuous deployment, containerization, and automated testing.
 
