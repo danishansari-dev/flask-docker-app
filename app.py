@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Welcome to my Flask CI/CD App!",
-        "version": "1.0",
+        "message": "Flask CI/CD - AUTO DEPLOY v2.0! 🚀",
+        "version": "2.0",
         "status": "running"
     })
 
