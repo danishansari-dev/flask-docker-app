@@ -8,6 +8,7 @@ def home():
         "message": "Flask CI/CD - AUTO DEPLOY v2.0! 🚀",
         "version": "2.0",
         "status": "running"
+
     })
     
 
